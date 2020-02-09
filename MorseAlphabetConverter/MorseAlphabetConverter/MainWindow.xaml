@@ -13,12 +13,12 @@
                     <DropShadowEffect ShadowDepth="4" Color="Black"/>
                 </TextBox.Effect>
             </TextBox>
-            <Button x:Name="translateButton" Content="Translate" Width="100" HorizontalAlignment="Left" Margin="55,-10,0,0">
+            <Button x:Name="translateButton" Content="Translate" Width="100" HorizontalAlignment="Left" Margin="55,-10,0,0" Click="TranslateButton_Click">
                 <Button.Effect>
                     <DropShadowEffect ShadowDepth="4" Color="Black"/>
                 </Button.Effect>
             </Button>
-            <Button x:Name="clearButton" Content="Clear Output" Width="100" HorizontalAlignment="Left" Margin="180,-19.5,0,0">
+            <Button x:Name="clearButton" Content="Clear Output" Width="100" HorizontalAlignment="Left" Margin="180,-19.5,0,0" Click="ClearButton_Click">
                 <Button.Effect>
                     <DropShadowEffect ShadowDepth="4" Color="Black"/>
                 </Button.Effect>
